@@ -21,8 +21,6 @@ import re
 import fpdf
 from binascii import hexlify
 
-from pwn import *
-
 from PIL import Image
 
 

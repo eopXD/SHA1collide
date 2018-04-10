@@ -29,3 +29,8 @@ Eliminate debug message by changing `level = logging.INFO`
 ```
 logging.basicConfig(stream=sys.stderr, level=logging.DEBUG, format='%(asctime)s %(levelname)s: %(message)s', datefmt='[%H:%M:%S]')
 ```
+
+## Dependencies
+
+hashlib, Image from PIL (Requires more than Python 3.6)
+
